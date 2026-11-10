@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Segreti (la chiave Groq va in .streamlit/secrets.toml o nelle variabili d'ambiente)
+.env
+secrets.toml
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Varianti HTML escluse da questo repository pubblico:
+# sono client basati su Puter.js e usano il marchio "Claude", senza alcuna
+# affiliazione con Anthropic. Restano disponibili in locale.
+index.html
+index-claude-design.html
